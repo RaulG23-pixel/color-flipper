@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+	background: #deecfc;
+}
+.container{
+	max-width: 75%;
+	margin: 0 auto;
+}
+.front{
+	background: rgb(26, 27, 28);
+	color: #fff;
+	width: auto;
+	padding: 3px;
+	border-radius: 8px;
+	text-align: center;
+	margin-top: 10rem;
+}
+.front h1 {
+	font-size: 3em;
+}
+.navigation{
+	letter-spacing: 2px;
+	box-shadow: 1px 1px 9px rgb(57, 60, 64);
+	background: #fff;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navigation .nav-links{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding: 0;
+}
+.nav-links li a{
+	font-size: 1rem;
+	font-family: arial;
+	margin: 0 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.nav-links li a:hover{
+	color: dodgerblue;
+}
+.navigation h2{
+	font-size: 1.4em;
+	color: rgb(20, 195, 222);
+	margin: .75rem 0;
+}
+.btn-hero{
+	display: block;
+	padding: .7rem 2.2rem;
+	border: 2px solid black;
+	border-radius: 8px;
+	color: black;
+	background: none;
+	margin: 3rem auto;
+	cursor: pointer;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	transition: all .4s ease;
+	font-weight: 400;
+}
+.btn-hero:hover{
+	color: #fff;
+	background: rgb(26, 27, 28);
+}
+.btn-hero:focus{
+	outline: none;
+}
+.color{
+	color: rgb(77, 156, 247);
+	display: block;
+}
