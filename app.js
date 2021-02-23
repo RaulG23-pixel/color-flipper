@@ -17,17 +17,17 @@ if(window.location.href.indexOf("index.html") != -1 ){
 
 if(window.location.href.indexOf("hex.html") != -1){
 //Hex button
-const hexSample = "abcdef0123456789";
-const hex = document.querySelector("#hex");
-hex.addEventListener("click", function(){
-	let newHex = "#";
-	for(let i = 0; i < 6; i++){
-		let randomN = Math.floor(Math.random() * 7);
-		newHex += hexSample[randomN];
-	}
-	document.body.style.background = newHex;
-	color.textContent = newHex;
-})
+	const hexSample = "abcdef0123456789";
+	const hex = document.querySelector("#hex");
+	hex.addEventListener("click", function(){
+		let newHex = "#";
+		for(let i = 0; i < 6; i++){
+			let randomN = Math.floor(Math.random() * 7);
+			newHex += hexSample[randomN];
+		}
+		document.body.style.background = newHex;
+		color.textContent = newHex;
+	})
 }
 
 
